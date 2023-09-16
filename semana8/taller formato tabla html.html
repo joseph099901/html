@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO UNICO</title>
+    <link rel="stylesheet" href="./css/table.css">
+
+</head>
+<body>
+    <h1>CONTACTENOS</h1>
+    <br>
+    <form action="datos.php">
+        <table>
+            <caption>DATOS BASICOS USUARIO</caption>
+            <tr><th>NOMBRE</th><td><input type="text" size="30" placeholder="ingrese nombre" required></td></tr>
+            <tr><th>APELLIDO</th><td><input type="text" size="40" placeholder="ingrese apellido" required></td></tr>
+            <tr><th>GENERO</th><td><input type="radio" name="genero" value="f">FEMENINO <input type="radio"  name="genero"  value="m">MASCULINO</td></tr>
+            <tr><th>NIVEL DE ESTUDIOS</th><td><select><option>primaria</option><option>secundaria</option> <option>tecnologico</option><option>profecional</option></select></td></tr>
+            <tr><th>CONTRASEÑA</th><td><input type="password"></td>
+            <tr><th><input type="submit" value="ENVIAR"></th><td><input type="reset" value="CANCELAR"></td></tr>
+        </tabble>
+
+    </form>
+</body>
+</html>
